@@ -9,7 +9,9 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: print hello world
-        run: echo "hello world"
-        hostname
-        ip a
+      - name: print hello world and system info
+        run: |
+          echo "hello world"
+          hostname
+          ip a
+
